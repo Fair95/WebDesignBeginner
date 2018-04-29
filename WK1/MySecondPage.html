@@ -9,85 +9,90 @@
 	<title>My second page</title>
 </head>
 <body>
+	<header>
+	<h1>My second page</h1>
+	</header>
+
 	<main>
 		<div>
-			<p id = "pic">
-				<h3>Figure</h3>
-				Here is the second page, let us have a look at a figure!
-				<figure>
-					<img src="plot1.png" width="50%" alt="Global Active Power">
-					<figcaption>This is a plot from my data science course</figcaption>
-				</figure>
-			</p>
+			
+			<h3 id ="pic">Figure</h3>
+			Here is the second page, let us have a look at a figure!
+			<figure>
+				<img src="plot1.png" width="50%" alt="Global Active Power">
+				<figcaption>This is a plot from my data science course</figcaption>
+			</figure>
+		
 
-			<p id = "hyperlinks">
-				<h3>Hyperlink</h3>
-				<!--
-					Note that target attribute can be specified to indicate whether you want to direct to the page (default _self) or open that link in a new window (_blank)
-				-->
-				Please see the <a href="http://www.w3school.com.cn/tags/index.asp" target="_blank">link</a> here to find manual for tags!
-			</p>
+		
+			<h3 id = "hyperlinks">Hyperlink</h3>
+			<!--
+				Note that target attribute can be specified to indicate whether you want to direct to the page (default _self) or open that link in a new window (_blank)
+			-->
+			Please see the <a href="http://www.w3school.com.cn/tags/index.asp" target="_blank">link</a> here to find manual for tags!
+		
 
-			<p>
-				<h3>Audio</h3>
-				Yay, lets enjoy the best part of my favarite song xD<br>
+	
+			<h3>Audio</h3>
+			Yay, lets enjoy the best part of my favarite song xD<br>
 
-				<audio src="05. Goodbye.mp3#t=05:04" controls="controls">Your browser does not support <code>video</code> element</audio>
-			</p>
+			<audio src="05. Goodbye.mp3#t=05:04" controls="controls">Your browser does not support <code>video</code> element</audio>
+		
 
-			<p> 
-				<h3>Table</h3>
-				Now lets see how to create a table in html!
-				<table border="1">
-					<tr><th>Category</th><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr>
-					<tr><td rowspan="2">Number</td><td>One</td><td>Two</td><td>Three</td></tr>
-					<tr><td>Four</td><td>Five</td><td>Six</td></tr>
-					<tr><td rowspan="2">Alphabetic</td><td>a</td><td>b</td><td>c</td></tr>
-					<tr><td>d</td><td>e</td><td>f</td></tr>
+		
+			<h3>Table</h3>
+			Now lets see how to create a table in html!
+			<table border="1">
+				<tr><th>Category</th><th>Column 1</th><th>Column 2</th><th>Column 3</th></tr>
+				<tr><td rowspan="2">Number</td><td>One</td><td>Two</td><td>Three</td></tr>
+				<tr><td>Four</td><td>Five</td><td>Six</td></tr>
+				<tr><td rowspan="2">Alphabetic</td><td>a</td><td>b</td><td>c</td></tr>
+				<tr><td>d</td><td>e</td><td>f</td></tr>
 
-				</table>
+			</table>
 
-			<p>
-				<h3>Internal (embeded) link</h3>
-				Woah, you can even add internal links with #+id assigned previously to refer back to the previous section. For example, you can click <a href="#pic">Global Active Power</a> to refer back to the picture and click <a href="#hyperlinks">tags manual</a> to go back to where the hyperlink located. Woderful isn't it? <abbr title="You only live once">YOLO!</abbr>
-			</p>
+		
+			<h3>Internal (embeded) link</h3>
+			Woah, you can even add internal links with #+id assigned previously to refer back to the previous section. For example, you can click <a href="#pic">Global Active Power</a> to refer back to the picture and click <a href="#hyperlinks">tags manual</a> to go back to where the hyperlink located. Woderful isn't it? <abbr title="You only live once">YOLO!</abbr>
+			
 		</div>
 		<hr>
 		<div>
-			<p>
-				<h3>Detail</h3>
+			
+			<h3>Detail</h3>
+			<details>
 				<summary>I'm tring to hide some information below, see if you can find it :)</summary>
-				<details>Whoops! Nothing here!</details>
-			</p>
+				<p>Whoops! Nothing here!</p>
+			</details>
+		
 
-			<p>
-				<h3>Meter</h3>
-				<meter min="0" max="233" value="66">sounds good man</meter>
-			</p>
+		
+			<h3>Meter</h3>
+			<meter min="0" max="233" value="66">sounds good man</meter>
+		
 
-			<p>
-				<h3>Progress</h3>
-				<progress value="66" max="666"></progress>
-			</p>
+		
+			<h3>Progress</h3>
+			<progress value="66" max="666"></progress>
+		
 
-			<p>
-				<h3>Iframe</h3>
-				<iframe src="http://www.w3school.com.cn/html5/html5_embed.asp" width="100%"></iframe>
-			</p>
+		
+			<h3>Iframe</h3>
+			<iframe src="http://www.w3school.com.cn/html5/html5_embed.asp" width="100%"></iframe>
+		
 
-			<p>
-				<h3>BDO</h3>
-				<bdo dir="rtl">What the fuck is this?</bdo>
-			</p>
+		
+			<h3>BDO</h3>
+			<bdo dir="rtl">What the fuck is this?</bdo>
+		
 		</div>
-
 	</main>
-	<footer>
-		<p>
-			<h3>Footer</h3>
-			Hmm, no footer yet.
-		</p>
 
+	<footer>
+	
+		<h3>Footer</h3>
+		Hmm, no footer yet.
+		
 	</footer>
 </body>
 </html>
