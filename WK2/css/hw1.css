@@ -77,4 +77,64 @@ img:hover{
 	width: 78%;
 }
 
+table{
+	font-size: 150%;
+	font-weight: normal;
+	line-height: 100%;
+	font-family: Arial,"Times New Roman"; 
+	margin: auto;
+	width: 70%;
+}
+tr{
+	opacity: 0.8;
+}
+tr:first-child{
+	font-weight: 600;
+	border: 3px solid black;
+	background-color: #00FFFF;
+	opacity: 1;
+}
 
+tr:last-child{
+	border-bottom: 9px;
+}
+
+tr:first-child>th:first-child{
+	border-radius: 25px 0 0 0;
+}
+
+tr:first-child>th:last-child{
+	border-radius: 0 25px 0 0;
+}
+
+tr:last-child>td:first-child{
+	border-radius: 0 0 0 25px;
+}
+
+tr:last-child>td:last-child{
+	border-radius: 0 0 25px 0;
+}
+
+td{
+	text-align: center;
+	padding: 1%;
+	margin: 1%;
+	font-color: #000000;
+	background-color: #51A39D;
+	border-radius: 2px;
+}
+
+
+th:first-child{
+	padding: 1%;
+	text-align: left;
+}
+td:first-child{
+	text-align: left;
+}
+
+
+
+tr:hover{
+	opacity: 1;
+}
